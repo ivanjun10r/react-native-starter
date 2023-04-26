@@ -1,0 +1,21 @@
+{
+    "env": {
+        "es2021": true
+    },
+    "extends": "airbnb",
+    "parser": "@babel/eslint-parser",
+    "ecmaFeatures": {
+        "classes": true
+    },
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "react/jsx-filename-extension": [
+            "error", { "extensions": [".js", ".jsx"] }
+        ]
+    }
+}
